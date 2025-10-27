@@ -12,18 +12,18 @@ public class Array1 {
         int score5 = 20;
 
         int[] scores = new int[5]; // int 자료 5개 들어갈 배열 생성
-        scores[0] = 90
-        scores[1] = 70
-        scores[2] = 50
-        scores[3] = 60
-        scores[4] = 20
+        scores[0] = 90;
+        scores[1] = 70;
+        scores[2] = 50;
+        scores[3] = 60;
+        scores[4] = 20;
 
         // 간단하게 배열 생성 / 초기화 한번에
         int[] scores2 = new int[]{90, 70, 50, 60, 20};
         int[] scores3 = {90, 70, 50, 60, 20}; // 가장 많이 사용
 
         // 길이(공간 개수) 배열명.length
-        System.out.println(score3.length);
+        System.out.println(score3);
 
         // 자료형[] 배열이름 = {초기화할 데이터1, 초기화할 데이터2}
 
@@ -35,7 +35,7 @@ public class Array1 {
         for (int i = 0; i < 5; i++) { // 배열이 추가되면 조건문도 바꿔 줘야 한다
 
 
-            for (int i = 0; i < names.length; i++) {
+            for (i = 0; i < names.length; i++) {
                 System.out.println(names[i]);
             }
 

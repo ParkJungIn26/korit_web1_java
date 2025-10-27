@@ -4,7 +4,7 @@ public class Practice1 {
     public static void main(String[] args) {
         // 실습 1) scores의 평균을 구해 주세요.
         // 배열의 길이 활용!
-        int[] scores = {80, 90, 75, 100, 65}
+        int[] scores = {80, 90, 75, 100, 65, 88, 91, 70};
         // 평균 -> 총합 / 개수(길이)
         int sum = 0;
         for (int score : scores) {
@@ -15,7 +15,7 @@ public class Practice1 {
 
 
         // 실습 2) (상함)이 포함된 음식을 제외하고 순회하면 출력해 주세요.
-        String foods = {"김치", "두부(상함)", "우유", "달걀(상함)", "사과"};
+        String[] foods = {"김치", "두부(상함)", "우유", "달걀(상함)", "사과"};
 
         // 문자열에서 접두/접미 검사
         String test = "손흥민";

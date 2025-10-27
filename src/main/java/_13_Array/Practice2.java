@@ -5,7 +5,7 @@ public class Practice2 {
         // 실습 3) scores의 평균을 구해 주세요.
 
         // 배열의 길이 활용!
-        int[] scores = {80, 90, 75, 100, 65, 88, 91, 70}
+        int[] scores = {80, 90, 75, 100, 65, 88, 91, 70};
         // 평균 -> 총합 / 개수(길이)
         int sum = 0;
         for (int score : scores) {

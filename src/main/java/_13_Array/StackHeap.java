@@ -26,7 +26,7 @@ public class StackHeap {
         // scores[1] -> 0x1000에서 int 자료형의 크기만큼 내려가서 찾자 -> 90
 
         // ****변수에 변수를 대입하는 것 -> stack값을 복사하는 것****
-        int[] scores;
+        int[] scores = new int[5];
         int[] copy = scores;
 
           /*
