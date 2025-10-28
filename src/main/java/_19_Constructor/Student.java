@@ -28,6 +28,8 @@ public class Student {
         boolean korValidation = validateScore(kor);
         boolean engValidation = validateScore(eng);
         boolean mathValidation = validateScore(math);
+        
+        // false면 if 문 실행
         if(!korValidation && !engValidation && !mathValidation) {
             System.out.println("점수는 0~100이어야 합니다.");
             return; // 원래라면 정의한 에러를 일으켜야 한다.
@@ -69,5 +71,15 @@ public class Student {
 
     // 기본생성자 (NoArgsConstructor)
     public Student() {}
+
+    // 이름만 받아주는 생성자
+    public Student(String name) {
+        this(name, 0, 0, 0);
+        // this()
+        // this() != this 서로 상관없음
+        // 같은 이름의 생성자를 호출 ->오버로딩된 생성자를 호출
+        // 제약사항 : 생성자의 가장 첫 줄에 적어 줘야 한다.
+
+    }
     
 }

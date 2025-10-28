@@ -35,6 +35,7 @@ public class Car {
         if (speed < 0) {
             speed = 0;
         }
+    }
 
         void showStatus() {
             System.out.println("자동차 계기판 출력");
@@ -46,9 +47,5 @@ public class Car {
             }
         }
 
-
     }
 
-    public void showStatus() {
-    }
-}
