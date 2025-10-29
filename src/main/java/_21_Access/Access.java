@@ -1,6 +1,12 @@
 package _21_Access;
 
 public class Access {
+    public Access(String 데이터입니다) {
+    }
+
+    public boolean getData() {
+        return false;
+    }
     // 접근 제어자 - (클래스), 메서드, 필드 모두 통일
     /*
     - 접근 제어자를 사용하는 이유?
@@ -28,8 +34,8 @@ public class Access {
 
 
     // 접근 제어자를 생략하면 default가 기본값이 된다.
-    int age;
-    void run() {
+    // int age;
+    // void run() {
 
         // data의 접근제어자가 private가 되어서
         // 직접참조(.)를 할 수 없게 되었음
@@ -40,7 +46,4 @@ public class Access {
         // get필드명 : getter
 
         }
-    }
 
-
-}
