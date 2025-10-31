@@ -2,7 +2,7 @@ package _23_Final;
 
 public class FinalStudent {
     private final String name; // 이름
-    private final int studentId; // 학번
+    private int studentId; // 학번
     private int age; // 나이
 
 
@@ -22,7 +22,8 @@ public class FinalStudent {
     // }
 
 
-    public FinalStudent(int age) {
+    public FinalStudent(String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
