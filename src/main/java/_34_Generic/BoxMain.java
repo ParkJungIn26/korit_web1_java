@@ -3,7 +3,7 @@ package _34_Generic;
 public class BoxMain {
     public static void main(String[] args) {
         // String, Integer 모두 최상위 부모가 Object
-        Box box1 = new Box("아이템1"); // String -> Object 업캐스팅
+        Box box1 =  new Box("아이템1"); // String -> Object 업캐스팅
         Box box2 = new Box(20); // Integer -> Object 업캐스팅
 
     }

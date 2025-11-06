@@ -26,7 +26,9 @@ public class Animal {
     }
 
     // 추상메서드 -> 상속받으면 강제 구현
-    public abstract void sound();
+    public void sound() {
+
+    }
 
 
 }
