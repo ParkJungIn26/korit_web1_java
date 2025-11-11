@@ -75,7 +75,7 @@ public class Practice2 {
             }
             // 20 이상일 때
             return new Person(p.getName(), p.getAge());
-        }
+        };
 
         // setter를 쓰는 방법
         Modifier<Number, S> hideMinorNames2 = p -> {
@@ -83,7 +83,7 @@ public class Practice2 {
                 p.setName("비공개");
             }
             return p;
-        }
+        };
 
 
         for (Person person : people) {

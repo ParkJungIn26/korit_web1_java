@@ -90,6 +90,13 @@ public class LambdaMain {
         // 인라인으로 정의를 함과 동시에 매개변수로 전달할 수 있다.
         calcNum(10, 5, (a, b) -> a + b);
 
+
+
+
+
+
+
+
 }
 }
 
